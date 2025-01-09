@@ -1,0 +1,35 @@
+{
+  "name": "problem5",
+  "version": "1.0.0",
+  "description": "Build a restful api using express typescript mysql",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "node ./build/server.js",
+    "start": "tsc && npm run dev",
+    "format": "prettier --write \"src/**/*.ts\" \"server.ts\""
+  },
+  "keywords": [
+    "expressjs",
+    "mysql",
+    "typescript",
+    "restapi"
+  ],
+  "author": "Tommy Tung",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "dotenv": "^16.4.7",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}

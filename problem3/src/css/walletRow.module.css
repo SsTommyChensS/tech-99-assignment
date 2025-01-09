@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.row > div {
+    flex: 1;
+    text-align: left;
+}
+
+.blockchain {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.amount {
+    color: #16a085;
+}
+
+.usdValue {
+    font-weight: bold;
+    color: #2980b9;
+    text-align: right;
+}
+
+.row:hover {
+    background-color: #f0f0f0;
+}
+
+body {
+    background-color: lightgray;
+}
